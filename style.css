@@ -16,18 +16,22 @@ nav > a{
 }
 h1{
     background-color: bisque;
-    width: 200px;
-    height 200px;
+    width: 25%;
+    height 25%;
     padding: 5%;
     Margin-left: 40%;
-    border-radius: 100px;
+    border-radius: 50%;
 
 }
 .Jack{
-    width:200px;
-    height: 200px;
-    object-fit: contain;
+    display: flex;
+    justify-content:center;
+
+    width:35%;
+    height: 35%;
     object-position: center;
+    border-radius: 50%;
+
     
 
 }
