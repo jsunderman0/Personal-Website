@@ -1,37 +1,34 @@
 body{
-    background-color: aqua;
+    background-color: black;
     font-family: Gill Sans;
+    color: white;
+    
 }
 nav > a{
-    display: 1;
-    justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    border: solid whitesmoke;
-    width: fit-content;
+    display: flex;
+    width: 100px;
+    border: solid fuchsia;
+    border-width: 5px;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
     font-size: larger;
-    
-    padding:0 5% 0 5%;
-
-}
-h1{
-    background-color: bisque;
-    width: 25%;
-    height 25%;
-    padding: 5%;
-    Margin-left: 40%;
-    border-radius: 50%;
-
+    margin: 15px;
+    margin-bottom: 15px;
 }
 .Jack{
-    display: flex;
-    justify-content:center;
-
-    width:35%;
-    height: 35%;
-    object-position: center;
-    border-radius: 50%;
-
-    
-
+    position:absolute;
+    top: 0px;
+    right:0px;
+    width:250px;
+    border-radius: 50% 0 0 50%;
+    border: solid fuchsia;
+    border-style: double;
+    border-width: 25px;
 }
+.LinkedIn{
+    width: 100px;
+    height: 100px;
+}
+
+
